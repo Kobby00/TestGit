@@ -1,7 +1,7 @@
 //Async functions
 console.log("Start");
 console.log("this is not an easy task");
-
+console.log("I'm suffering to merge this");
 function loginUser(email, password, callback) {
   setTimeout(() => {
     console.log("Now we have the data");
