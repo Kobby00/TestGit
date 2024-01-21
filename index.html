@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redde Checkout Frontend</title>
+</head>
+<body>
+  <h1>Redde Checkout Frontend</h1>
+
+  <div>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" required>
+  </div>
+
+  <div>
+    <label for="paymentoption">paymentoption:</label>
+    <input type="text" id="paymentoption" required>
+  </div>
+
+  <div>
+    <label for="nickname">Name:</label>
+    <input type="text" id="nickname" required>
+  </div>
+
+  <div>
+    <label for="walletnumber">Momo Number:</label>
+    <input type="text" id="walletnumber" required>
+  </div>
+
+  <div>
+    <label for="clienttransid">Client Transaction ID:</label>
+    <input type="text" id="clienttransid" required>
+  </div>
+  <div>
+    <label for="reason">Reason:</label>
+    <input type="text" id="reason" required>
+  </div>
+
+  <button onclick="initiateCheckout()">Initiate Checkout</button>
+
+    <script src="receiveMoney.js"></script>
+</body>
+</html>
